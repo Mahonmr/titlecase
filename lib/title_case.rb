@@ -1,5 +1,10 @@
 class String
   define_method(:title_case) do
-    return self.capitalize!()
+    str = self
+    str = str.split
+    str.each do |word|
+      word.capitalize!
+    end
+    str.join(" ")
   end
 end
