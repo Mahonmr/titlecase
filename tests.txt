@@ -1,0 +1,9 @@
+"string".title_case should return "String"
+
+"multiple word string".title_case should return "Multiple Word String"
+
+"String".title_case should return "String"
+
+"sTRinG".title_case should return "String"
+
+"./,;123 string".title_cas should return "./,;123 String"
